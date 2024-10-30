@@ -88,7 +88,7 @@ export default function Component() {
             Forgot your password?
           </Link>
           <div className="text-sm">
-            {"Don't have an account? "}
+            {"Don&quot;t have an account? "}
             <Link className="font-medium hover:text-gray-900" href="/signup">
               Sign Up
             </Link>

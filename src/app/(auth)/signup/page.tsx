@@ -100,7 +100,7 @@ export default function Component() {
           </Button>
         </div>
         <div className="text-center text-sm">
-          Already have an account?{" "}
+          Already have an account?&nbsp;
           <Link className="font-medium hover:text-gray-900" href="/login">
             Log in
           </Link>

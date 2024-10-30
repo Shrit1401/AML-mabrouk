@@ -51,7 +51,7 @@ export default function Component() {
               filteredBooks.map((book, i) => <BookCard key={i} book={book} />)
             ) : (
               <p className="text-center text-gray-500">
-                No books found for "{searchQuery}"
+                No books found for &quot;{searchQuery}&quot;
               </p>
             )}
           </div>

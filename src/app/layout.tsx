@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { DM_Sans } from "next/font/google";
-import Header from "@/components/custom/Header";
 
 const dm_sans = DM_Sans({
   subsets: ["latin"],
@@ -11,7 +10,7 @@ const dm_sans = DM_Sans({
 export const metadata: Metadata = {
   title: "AML System",
   description:
-    "AML System is a web application that allows users to manage their anti-money laundering (AML) compliance",
+    "AML System is a web application that allows users to manage their anti-money laundering (AML) compliance&quot;",
 };
 
 export default function RootLayout({
